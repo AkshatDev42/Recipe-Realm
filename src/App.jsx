@@ -12,7 +12,7 @@ import Padding from './components/Padding.jsx';
 import RecipeDesc from './components/RecipeDesc.jsx';
 import { useLoading } from './contexts/LoadingContext.jsx';
 
-const APIKEY = import.meta.env.APIKEY
+const APIKEY = import.meta.env.VITE_APIKEY
 
 function App() {
   const[vegRecipe,setVegRecipe] = useState([])
