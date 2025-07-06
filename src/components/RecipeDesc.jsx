@@ -6,7 +6,7 @@ import LoadingScreen from '../assets/LoadingScreen.gif';
 import { useParams } from 'react-router-dom';
 import { useLoading } from '../contexts/LoadingContext';
 
-const APIKEY = process.env.APIKEY
+const APIKEY = import.meta.env.APIKEY
 export default function RecipeDesc() {
     const { id } = useParams()
     const [recipe, setRecipe] = useState({});
