@@ -12,6 +12,7 @@ import Padding from './components/Padding.jsx';
 import RecipeDesc from './components/RecipeDesc.jsx';
 import { useLoading } from './contexts/LoadingContext.jsx';
 
+const APIKEY = process.env.APIKEY
 function App() {
   const[vegRecipe,setVegRecipe] = useState([])
   const[nonVegRecipe,setNonVegRecipe] = useState([])
