@@ -1,8 +1,34 @@
-# React + Vite
+# 🍲 Recipe Realm
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> 🗓️ **Created:** February 2025
 
-Currently, two official plugins are available:
+**Recipe Realm** is a React-based recipe browser app that allows users to explore delicious meals by category, including vegetarian, non-vegetarian, desserts, and healthy food. It also supports keyword-based search using the Spoonacular API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## ✨ Features
+
+- 🔍 Search recipes by name (with optional vegetarian filter)
+- 🥦 Browse curated categories:
+  - Vegetarian
+  - Non-Vegetarian
+  - Dessert
+  - Healthy (e.g., Salads)
+- 🍽 View detailed recipe descriptions
+- 🌐 Pagination support for large results
+- 🎨 Theme support via context (light/dark mode ready)
+- 🚀 Built with modular React components and React Router
+
+---
+
+## 🧱 Tech Stack
+
+- **React**
+- **React Router**
+- **Axios**
+- **Spoonacular API**
+- **Context API** (for theme and loading state)
+- **Tailwind CSS** (optional)
+- **Vite** (if applicable)
+
+---
